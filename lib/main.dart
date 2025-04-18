@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_1/BaiTapNote/view/note_listscreen.dart';
+import 'my_widgets.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: NoteListScreen(),
+      home: MyStatefulWiget(),
     );
   }
 }
